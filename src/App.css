@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+/* Misbah CSS */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link:focus, .nav-link:hover {
+    color: #ee4036;
+}

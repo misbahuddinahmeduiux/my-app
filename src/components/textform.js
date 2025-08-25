@@ -7,7 +7,7 @@ export default function TextForm(props){
     // yeh ek hook hai jis ko use kara hai text ka state change krne mai iska code yaad krna hoga 
     // one time is tarha dena hoga or use ke andar jo value arahi hai wo by default value hai 
     // value change krne ke lye setText ka use krna hoga
-   const [text, setText] = useState('Enter Text here');
+   const [text, setText] = useState('');
    // setText ("new text");
 
 
@@ -84,10 +84,8 @@ export default function TextForm(props){
             <button className="btn btn-secondary me-2" onClick={handleRevertClick}>Text Revert</button>
             <button className="btn btn-danger me-2" onClick={removeExtraSpace}>Remove Extra Space</button>
             <button className="btn btn-danger" onClick={handleClearText}>Clear Text</button>
-
-
-            
         </div>
+
 
         <div className="container mt-5 p-5 bg-danger-subtle">
             <h4>Results</h4>
